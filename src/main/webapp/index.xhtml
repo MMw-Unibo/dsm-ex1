@@ -8,5 +8,12 @@
 <h:head></h:head>
 <h:body>
     <h1>Welcome to Jakarta EE 8</h1>
+    <p>
+        Hello, <h:outputText value="#{newMember.name}"/>
+        <ul>
+            <li>email: <h:outputText value="#{newMember.email}" /></li>
+            <li>phone: <h:outputText value="#{newMember.phoneNumber}" /></li>
+        </ul>
+    </p>
 </h:body>
 </html>
